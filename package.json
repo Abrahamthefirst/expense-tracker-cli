@@ -1,0 +1,21 @@
+{
+  "name": "expense-tracker-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "commander": "^13.1.0",
+    "csv-writer": "^1.6.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.5.0"
+  }
+}
